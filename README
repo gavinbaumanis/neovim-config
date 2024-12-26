@@ -1,12 +1,15 @@
 This is **MY** configuration for NeoVim for **Windows**.
 
+This branch **DOES NOT** contain the treesitter plugin.
+If you want the treesitter plugin included you should use the **main** branch.
+
 It has been pretty much entirely/blatantly stolen from a [Primeagen](https://www.youtube.com/@ThePrimeagen) YouTube video:
 [0 to LSP : Neovim RC From Scratch](https://www.youtube.com/watch?v=w7i4amO_zaE)
 
 There are settings of his that are missing, because I don't use/need those features.
 There are also some different keyboard shortcuts used:
-* He uses a DVORAK keyboard 
-* I use a QWERTY keyboard 
+* He uses a DVORAK keyboard
+* I use a QWERTY keyboard
 and thus some his shortcuts do not make any sense - for me!
 
 To use this on Windows...
