@@ -14,3 +14,15 @@ To use this on Windows...
 * Copy the entire `nvim` directory into `c:\Users\<your_user_account>\AppData\Local\`
   * You should end up with: `c:\Users\<your_user_account>\AppData\Local\nvim\`
   * **Note:** that AppData is normally a HIDDEN directory, you may need to alter your VIEW settings, to see it.
+
+* Run the following command in a Windows Powershell Console
+ * git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
+
+* If Neovim is open, shut it down and reopen it.
+
+* Ensure that the `c:\Users\<your_user_account>\AppData\Local\lua\gavin\packer.lua` file is open.
+ * (Note You may change the "gavin" directory name to something else - but nonetheless make sure you open the `packer.lua` file.
+
+* Type `:so` : this will "source" the file.
+
+* Type `:PackerSync` : this will install all the plugins.
